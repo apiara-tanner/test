@@ -22,7 +22,6 @@ import {
 
 function App() {
   return (
-    <Router basename = '/test'>
     <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/P1" element={<P1 />} />
@@ -35,8 +34,6 @@ function App() {
         <Route path="/Lab3" element={<L3 />} />
         <Route path="/Lab6" element={<L6 />} />
       </Routes>
-
-      </Router>
 
 
 
