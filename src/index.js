@@ -5,7 +5,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  HashRouter
+
 } from "react-router-dom";
 
 import reportWebVitals from './reportWebVitals';
@@ -17,9 +19,12 @@ const root = createRoot(container);
 //Welcome to Buffalo Street
 
 root.render(
+  <HashRouter>
   <Router>
     <App />
   </Router>
+  </HashRouter>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
